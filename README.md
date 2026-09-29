@@ -1,4 +1,5 @@
 # Task Manager (Laravel)
+A lightweight, full-stack task management dashboard built with LARAVEL and MySQL. It lets a user create, track, and update tasks through a single-page style dashboard — complete with live stats, search, priority filtering, and status toggling — without a page reload for most actions.
 
 Project Code: WST21-PM-2026-SF
 
@@ -8,7 +9,11 @@ Course & Year: BSIT2
 
 Database Used: MySQL
 
-## Features
+# Overview
+
+The app follows a classic Laravel MVC structure: task records are stored in MySQL, served to the Blade view as JSON, and rendered client-side with vanilla JavaScript. All CRUD actions (create, edit, delete, status toggle) talk to Laravel routes via fetch() calls protected by the CSRF token, so the dashboard stays in sync with the database on every change.
+
+# Features
 - Add Task – Allows users to create and add a new task.
 
 - View Tasks – Displays all the tasks that have been added.
