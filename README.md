@@ -11,13 +11,13 @@ Database Used: MySQL
 ## Features
 - Add Task – Allows users to create and add a new task.
 
-View Tasks – Displays all the tasks that have been added.
+- View Tasks – Displays all the tasks that have been added.
 
-Edit Task – Allows users to change or update the details of an existing task.
+- Edit Task – Allows users to change or update the details of an existing task.
 
-Delete Task – Removes a task that is no longer needed.
+- Delete Task – Removes a task that is no longer needed.
 
-Update Status – Allows users to change a task’s status, such as Pending or Completed.
+- Update Status – Allows users to change a task’s status, such as Pending or Completed.
 
 ## Setup
 1. Clone the repo and run `composer install`.
