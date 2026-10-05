@@ -25,11 +25,13 @@ The app follows a classic Laravel MVC structure: task records are stored in MySQ
 - Update Status – Allows users to change a task’s status, such as Pending or Completed.
 
 ## Setup
-1. Clone the repo and run `composer install`.
-2. Copy `.env.example` to `.env` and set your database credentials.
-3. Run `php artisan key:generate`.
-4. Run `php artisan migrate`.
-5. Run `php artisan serve` and visit `http://127.0.0.1:8000`.
+1. Start the XAMPP, Open the XAMPP Control Panel and start the Apache and MySQL modules.
+2. Create the databaseGo to http://localhost/phpmyadmin and create a new database matching the DB_DATABASE value you set in .env (e.g. task_manager).
+3. Clone the repo and run `composer install`.
+4. Copy `.env.example` to `.env` and set your database credentials.
+5. Run `php artisan key:generate`.
+6. Run `php artisan migrate`.
+7. Run `php artisan serve` and visit `http://127.0.0.1:8000`.
 
 ## Screenshots
 <img width="1897" height="941" alt="image" src="https://github.com/user-attachments/assets/c3958b5a-4eb1-4a88-b705-4cb14b29ef02" />
